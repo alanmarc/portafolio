@@ -1,0 +1,23 @@
+*{
+  background-color: #0F184F;
+  margin: 0;
+}
+*::-webkit-scrollbar {
+  width: 14px; /* vertical scrollbar */
+  height: 14px; /* horizontal scrollbar */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #FFF;
+  border-radius: 14px;
+  border: calc(14px / 4) solid #ccc;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #ba63eb;
+  border: solid #9a4cc7;
+}
