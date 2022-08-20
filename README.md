@@ -2,7 +2,7 @@
 
 ## Descripción:
 
-  En este portafolio muestro los diferentes proyectos que he realizado e informacion de contaco sobre mí.
+  En este portafolio muestro los diferentes proyectos que he realizado e información de contaco sobre mí.
   
  ## Tecnologías
   - ReactJS.
