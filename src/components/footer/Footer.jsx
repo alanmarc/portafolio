@@ -13,7 +13,7 @@ export const Footer = () => {
                     <img src='https://img.icons8.com/ios-filled/100/000000/linkedin.png'/>
                 </a>
                 <a href='mailto:alanmarcs96@gmail.com'>
-                    <img src='https://img.icons8.com/external-sbts2018-solid-sbts2018/100/000000/external-mail-ecommerce-basic-1-sbts2018-solid-sbts2018.png'/>
+                    <img src='https://img.icons8.com/material/100/000000/send-mass-email.png'/>
                 </a>
                 <a href='https://t.me/Alanmarjs' target="_Blank">
                     <img src='https://img.icons8.com/ios-filled/100/000000/telegram-app.png' />

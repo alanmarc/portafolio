@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardAllProject } from '../components/cards/CardAllProject'
 import ProjectArt from '../styles/project-art'
 
 export const Projects = () => {
@@ -8,7 +9,7 @@ export const Projects = () => {
           <h1>Proyectos realizados</h1>
       </section>
       <section>
-        
+        <CardAllProject/>
       </section>
     </ProjectArt>
   )

@@ -30,9 +30,11 @@ const FooterArtStyled = styled.div`
 .social{
   padding-bottom: 12px;
   a img{
-    width: 50px;
+    background: rgba(186,99,235, 1);
+    border-radius: 8px;
     height: 50px;
     margin: 0 12px;
+    width: 50px;
   }
 }
 
