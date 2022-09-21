@@ -14,7 +14,7 @@ export const CardProject = ( props ) => {
                 <h3>{props.title}</h3>
                 <p>{props.description}</p>
                 <div className='link'>
-                    <Link className='button-project' to={"/contact"}> Ver más</Link>
+                    <Link className='button-project' to={"/projects"}> Ver más</Link>
                 </div>
             </div>
         </div>

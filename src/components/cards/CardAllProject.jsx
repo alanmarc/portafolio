@@ -1,13 +1,13 @@
 import React from 'react';
 import ProjectAllArt from '../../styles/cardAllProject-art';
 
-export const CardAllProject = () => {
+export const CardAllProject = ({ title, imgProjectUrl, content }) => {
   return (
     <ProjectAllArt>
-        <div>
-            <h2>title</h2>
-            
-            <p></p>
+        <div className='project-container'>
+            <h2>{ title }</h2>
+            <img src={ imgProjectUrl }/>
+            <p>{ content }</p>
             <div>
                 <h3>Tecnologías</h3>
                 <div>
