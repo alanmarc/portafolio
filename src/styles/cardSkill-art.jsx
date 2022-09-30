@@ -21,10 +21,6 @@ const CardStyled = styled.div`
     }
     h4{
         color: #FFF;
-        font-size: 24px;
-        line-height: 20px;
-        max-width: 150px;
-        
     }
 }
 

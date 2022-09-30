@@ -38,12 +38,10 @@ const CardStyled = styled.div`
     }
 
     h3 {
-        font-size: 32px;
         position: absolute;
         bottom: 0;
         width: 100%;
         height: 30%;
-        line-height: 45px;
         color: #FFF;
         background: rgba(0, 0, 0, 0.5);
         text-align: center;
@@ -80,7 +78,6 @@ const CardStyled = styled.div`
 
     h3 {
         background: none;
-        font-size: 30px;
         margin-top: 20px;
         letter-spacing: 2px;
     }

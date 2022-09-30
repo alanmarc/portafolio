@@ -35,17 +35,10 @@ const IndexArtStyled = styled.div`
     
     h1{
       background: none;
-      color: #ba63eb;
-      font-size: 42px;
-      font-weight: 900;
-      line-height: 56px;
       padding: 8px 0;
     }
     h2{
       background: none;
-      color: #FFF;
-      font-size: 34px;
-      line-height: 50px;
       padding: 8px 0;
     }
     .text{
@@ -85,14 +78,10 @@ const IndexArtStyled = styled.div`
     color: #FFF;
     
     h2{
-      font-size: 34px;
       color: #ba63eb;
-      line-height: 48px;
       padding: 16px 0;
     }
     p{
-      font-size: 24px;
-      line-height: 40px;
       padding: 16px;
     }
     img{
@@ -111,17 +100,12 @@ const IndexArtStyled = styled.div`
     text-align: center;
 
     h2{
-      font-size: 34px;
       color: #ba63eb;
-      line-height: 48px;
       padding: 16px 0;
     }
 
     h3{
-      font-size: 32px;
-      font-weight: 100;
       color: #ba63eb;
-      line-height: 48px;
       padding: 32px 0 0 0
     }
 
@@ -145,9 +129,7 @@ const IndexArtStyled = styled.div`
     align-items: center;
 
     h2{
-      font-size: 34px;
       color: #ba63eb;
-      line-height: 48px;
       padding: 16px 0;
     }
     
@@ -173,19 +155,9 @@ const IndexArtStyled = styled.div`
       align-items: center;
       text-align: center;
       align-self: center;
-      
-
-      h1{
-      font-size: 52px;
-      font-weight: 900;
-      line-height: 60px;
 
     }
-    h2{
-      font-size: 44px;
-      line-height: 50px;
-    }
-    }
+    
   
     .about{
       padding: 26px 0;

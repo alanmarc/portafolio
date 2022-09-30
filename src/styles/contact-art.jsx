@@ -13,10 +13,6 @@ const ContactArtStyled = styled.div`
   h1{
     text-align: center;
     background: none;
-    color: #ba63eb;
-    font-size: 42px;
-    font-weight: 900;
-    line-height: 56px;
     padding: 8px 0;
   }
 
@@ -28,10 +24,7 @@ const ContactArtStyled = styled.div`
     align-items: center;
     text-align: center;
     h2{
-      font-size: 34px;
-      font-weight: 100;
       color: #ba63eb;
-      line-height: 48px;
       padding: 0 12px;
     }
 
@@ -51,9 +44,6 @@ const ContactArtStyled = styled.div`
     text-align: center;
     padding: 36px 24px 12px;
 
-    h1{
-      font-size: 52px;
-    }
     .info-contact{
       display: flex;
       flex-direction: row;
