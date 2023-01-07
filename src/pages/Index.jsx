@@ -5,6 +5,10 @@ import { CardSkill } from '../components/cards/CardSkill'
 import { Footer } from '../components/footer/Footer'
 import IndexArt from '../styles/index-art'
 
+import giftApp from '../../public/giftapp.png';
+import portfolio from '../../public/portfolio.png';
+import profileGithub from '../../public/profilegithub.png';
+
 export const Index = () => {
   return (
     <IndexArt>
@@ -120,18 +124,18 @@ export const Index = () => {
         <h2>Proyectos</h2>
         <div>
           <CardProject
-          title="Buscador GiftApp"
-          img="https://tekla.io/wp-content/uploads/2022/03/Recurso1.png"
-          description="Aplicación web para la búsqueda de imágenes tipo gift. Este proyecto fue desarrollado con ReactJs y utilizando una API de terceros"
+          title="Portafolio de Proyectos"
+          img={portfolio}
+          description="Aplicacion Web creada para compartir información de los proyectos que he realizado"
+          />
+          <CardProject
+          title="Profile Github"
+          img={profileGithub}
+          description="Aplicacion Web para buscar diferentes usuarios de Github, mostrar una breve reseña sobre el usuario. Obtenido mediante la Api de Github."
           />
           <CardProject
           title="Buscador GiftApp"
-          img="https://tekla.io/wp-content/uploads/2022/03/Recurso1.png"
-          description="Aplicación web para la búsqueda de imágenes tipo gift. Este proyecto fue desarrollado con ReactJs y utilizando una API de terceros"
-          />
-          <CardProject
-          title="Buscador GiftApp"
-          img="https://tekla.io/wp-content/uploads/2022/03/Recurso1.png"
+          img={giftApp}
           description="Aplicación web para la búsqueda de imágenes tipo gift. Este proyecto fue desarrollado con ReactJs y utilizando una API de terceros"
           />
         </div>

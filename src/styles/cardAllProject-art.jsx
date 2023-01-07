@@ -6,7 +6,7 @@ const CardAllArtStyled = styled.div`
     box-sizing: border-box;
     font-family: serif;
 }
-p, div, h3, h2, img {
+p, div, h3, h2, img, a{
     background: none;
 }
 
@@ -17,7 +17,7 @@ p, div, h3, h2, img {
   color: #FFF;
   height: 100%;
   max-width: 560px;
-  margin: 26px auto;
+  margin: 24px;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -26,20 +26,73 @@ p, div, h3, h2, img {
   text-align: center;
 
   .img-project{
-    width: 90%;
+    width: 80%;
   } 
 
   h2, p {
     padding: 16px; 
   }
 
-  .more-info{
-    display: flex;
+  .img-tecnologias{
+    height: 60px;
+    background: #FFF;
+    margin: 8px;
+    border-radius: 16px;
   }
 
+  .more-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    .btn-projects{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #FFF;
+      height: 40px;
+      p{
+        line-height: 20px;
+      } 
+    }
+  }
 }
 
+.btn-projects:hover{
+      background: rgba(200, 200, 200, 0.4);
+      border-radius: 8px;
+      margin: 8px;
+      height: 50px;
+      p{
+        font-size: 28px;
+      }
+}
 
+.img-project:hover {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid #000;
+}
+
+@media screen and (min-width: 780px) {
+  .project-container {
+    max-width: 800px;
+
+    .container-img{
+      margin: 12px;
+    }
+
+    .img-tecnologias{
+      height: 80px;
+    }
+
+  }
+
+  
+
+}
 `
 
 
