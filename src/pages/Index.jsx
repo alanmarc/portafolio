@@ -5,9 +5,9 @@ import { CardSkill } from '../components/cards/CardSkill'
 import { Footer } from '../components/footer/Footer'
 import IndexArt from '../styles/index-art'
 
-import giftApp from '../../public/static/giftapp.png';
-import portfolio from '../../public/static/portfolio.png';
-import profileGithub from '../../public/static/profilegithub.png';
+import giftApp from '../public/static/giftapp.png';
+import portfolio from '../public/static/portfolio.png';
+import profileGithub from '../public/static/profilegithub.png';
 
 export const Index = () => {
   return (

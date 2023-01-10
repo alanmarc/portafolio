@@ -3,9 +3,9 @@ import { CardAllProject } from '../components/cards/CardAllProject';
 import { Footer } from '../components/footer/Footer';
 import ProjectArt from '../styles/project-art';
 
-import giftApp from '../../public/static/giftapp.png';
-import portfolio from '../../public/static/portfolio.png';
-import profileGithub from '../../public/static/profilegithub.png';
+import giftApp from '../public/static/giftapp.png';
+import portfolio from '../public/static/portfolio.png';
+import profileGithub from '../public/static/profilegithub.png';
 
 export const Projects = () => {
   return (
