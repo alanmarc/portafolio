@@ -78,13 +78,15 @@ const CardStyled = styled.div`
 
     h3 {
         background: none;
-        margin-top: 20px;
-        letter-spacing: 2px;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1px;
     }
 
     p {
         background: none;
         font-size: 18px;
+        line-height: 24px;
         letter-spacing: 1px;
     }
 }
@@ -103,6 +105,31 @@ const CardStyled = styled.div`
         height: 400px;
         width: 680px;
         margin: 70px 16px;
+    }
+
+    .card-project .front{
+        h3{
+            font-size: 52px;
+            line-height: 60px;
+        }
+    }
+
+    .card-project .back{
+
+        h3{
+            font-size: 52px;
+            line-height: 60px;
+        }
+        p{
+            font-size: 36px;
+            line-height: 40px;
+        }
+
+        .link{
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+        }
     }
 }
 

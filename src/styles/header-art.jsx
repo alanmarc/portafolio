@@ -14,6 +14,7 @@ const HeaderArtStyled = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  
 }
 .nav_container {
   background: none;
@@ -84,6 +85,11 @@ ul > .list_item{
 
 
 @media (min-width: 700px){
+  .navbar{
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
   .list{
       position: unset;
       flex-direction: row;

@@ -5,9 +5,9 @@ import { CardSkill } from '../components/cards/CardSkill'
 import { Footer } from '../components/footer/Footer'
 import IndexArt from '../styles/index-art'
 
-import giftApp from '../../public/giftapp.png';
-import portfolio from '../../public/portfolio.png';
-import profileGithub from '../../public/profilegithub.png';
+import giftApp from '../../public/static/giftapp.png';
+import portfolio from '../../public/static/portfolio.png';
+import profileGithub from '../../public/static/profilegithub.png';
 
 export const Index = () => {
   return (
@@ -22,9 +22,9 @@ export const Index = () => {
       <section className='about'>
         <h2>Acerca de mi</h2>
         <div className='about-container'>
-          <p>Actualmente soy desarrollador Frontend, me encanta trabajar con las tecnologias de Javascript, HTML, CSS, ReactJS y React Native. Con las que he desarrollado y colaborado en proyectos escolares, laborales y personales. </p>
+          <p>Actualmente soy desarrollador Frontend, me encanta trabajar con las tecnologías de Javascript, HTML, CSS, ReactJS y React Native. Con las que he desarrollado y colaborado en proyectos escolares, laborales y personales. </p>
           <img src="https://img.icons8.com/ios-glyphs/480/000000/code.png"/>
-          <p> Apasionado por la tecnologia que me motiva a estar aprendiendo y adquiriendo continuamente habilidades de desarrollo, tendencias tecnologicas desde el lado del frontend y backend, fortaleciendome en el desarrollo de aplicaciones web</p>
+          <p> Apasionado por la tecnología que me motiva a estar aprendiendo y adquiriendo continuamente habilidades de desarrollo, tendencias tecnologicas desde el lado del frontend y backend, fortaleciendome en el desarrollo de aplicaciones web</p>
         </div>
       </section>
       <section className='skills'>
@@ -34,7 +34,7 @@ export const Index = () => {
           <div className='skills-container'>
             <CardSkill
             url="https://img.icons8.com/color/240/000000/group-task.png"
-            name="Comunicacion asertiva"
+            name="Comunicación asertiva"
             />
             <CardSkill
             url="https://img.icons8.com/color/240/000000/property-time.png"
@@ -48,7 +48,7 @@ export const Index = () => {
             />
             <CardSkill
             url="https://img.icons8.com/dusk/240/000000/brainstorm-skill.png"
-            name="Resolucion de problemas"
+            name="Resolución de problemas"
             />
           </div>
         </div>
@@ -126,7 +126,7 @@ export const Index = () => {
           <CardProject
           title="Portafolio de Proyectos"
           img={portfolio}
-          description="Aplicacion Web creada para compartir información de los proyectos que he realizado"
+          description="Aplicacion Web creada para compartir información de los proyectos que he realizado e información de contacto."
           />
           <CardProject
           title="Profile Github"

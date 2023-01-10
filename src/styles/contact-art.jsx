@@ -40,9 +40,10 @@ const ContactArtStyled = styled.div`
   .title-contact{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     text-align: center;
     padding: 36px 24px 12px;
+    margin-top: 80px;
 
     .info-contact{
       display: flex;

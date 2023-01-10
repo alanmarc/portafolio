@@ -25,8 +25,17 @@ const ProjectArtStyled = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 20px 0 40px 0;
 }
 
+
+@media screen and (min-width: 700px){
+  .title-project{
+    margin-top: 80px;
+
+  }
+
+}
 
 
 

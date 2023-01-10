@@ -14,10 +14,10 @@ const CardStyled = styled.div`
     align-items: center;
     text-align: center;
     max-width: 150px;
-    margin: 0 20px;
+    margin: 16px 10px;
     img{
         width: 150px;
-        weight: 150px;
+        height: 150px;
     }
     h4{
         color: #FFF;
@@ -29,10 +29,10 @@ const CardStyled = styled.div`
 
     .card-skill{
         max-width: 240px;
-        margin: 0;
+        margin: 24px 10px;
         img{
             width: 210px;
-            weight: 210px;
+            height: 210px;
         }
     }
 }

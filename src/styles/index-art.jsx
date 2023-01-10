@@ -110,14 +110,12 @@ const IndexArtStyled = styled.div`
     }
 
     .soft-skills{
-      padding: 16px 16px;
       width: auto;
     }
 
     .skills-container{
       display: flex;
       flex-direction: row;
-      padding: 16px 16px;
       
     }
   }
@@ -140,7 +138,7 @@ const IndexArtStyled = styled.div`
 
   @media screen and (min-width: 780px) {
     .presentation{
-      margin: 0px;
+      margin-top: 80px;
       height: 800px;
       display: flex;
       justify-content: center;
@@ -174,7 +172,6 @@ const IndexArtStyled = styled.div`
     }
 
     .skills{
-
 
       .soft-skills{
         width: auto;
